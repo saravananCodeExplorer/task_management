@@ -19,7 +19,8 @@ class TaskForm(forms.ModelForm):
             'title',
             'description',
             'status',
-            'due_date'
+            'due_date',
+        
         ]
 
         # Customize the HTML input fields
@@ -56,6 +57,7 @@ class TaskForm(forms.ModelForm):
                     'type': 'date'
                 }
             ),
+    
         }
 
 
